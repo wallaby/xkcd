@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Xkcd</string>
+    <string name="comic_button_text">Show me today\'s xkcd!</string>
+    <string name="positive_feedback_message">Great comic!</string>
+    <string name="negative_feedback_message">Way to go Mr. Munroe!</string>
+</resources>

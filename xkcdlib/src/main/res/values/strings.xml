@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Xkcd Lib</string>
+    <string name="xkcdlib_dialog_title">Today\'s xkcd - %1$s</string>
+    <string name="xkcdlib_comic_load_error">Could not load this comic!</string>
+    <string name="xkcdlib_comic_image_load_error">Could not load the image for this comic!</string>
+    <string name="xkcdlib_comic_thumbs_up">Thumbs up</string>
+    <string name="xkcdlib_comic_thumbs_down">Thumbs down</string>
+</resources>

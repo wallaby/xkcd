@@ -1,0 +1,35 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context="com.onfido.toth.xkcdlib.XkcdDialog">
+
+    <ImageButton
+        android:id="@+id/xkcdlib_like_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:src="@drawable/ic_like_thumb"/>
+    <ImageButton
+        android:id="@+id/xkcdlib_dislike_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/ic_dislike_thumb"/>
+    <TextView
+        android:id="@+id/xkcdlib_title_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/xkcdlib_like_button"
+        android:layout_toEndOf="@id/xkcdlib_like_button"
+        android:layout_toLeftOf="@id/xkcdlib_dislike_button"
+        android:layout_toStartOf="@id/xkcdlib_dislike_button"/>
+
+    <ImageView
+        android:id="@+id/xkcdlib_comic_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/xkcdlib_like_button"/>
+</RelativeLayout>
